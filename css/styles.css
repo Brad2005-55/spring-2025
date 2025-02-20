@@ -5,3 +5,7 @@ body {
     font-family:  var(--fontFamily) !important;
 }
 
+.blinn-fa-icon { 
+    font-size: 80px; 
+    color: blue; 
+}

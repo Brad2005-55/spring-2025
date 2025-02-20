@@ -11,6 +11,6 @@ body {
 }
 
 .blinn-fa-container {
-    background-color: var(--scondaryColor) !important;
+    background-color: var(--secondaryColor) !important;
     padding: 50px;
 }

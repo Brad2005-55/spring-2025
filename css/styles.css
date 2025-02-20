@@ -2,10 +2,14 @@
 @import 'main.css';
 
 body {
-    font-family:  var(--fontFamily) !important;
+    font-family: var(--fontFamily) !important;
 }
 
-.blinn-fa-icon { 
-    font-size: 80px; 
-    color: blue; 
+.blinn-fa-icon {
+    font-size: 80px;
+    color: blue;
+}
+
+.blinn-fa-container {
+    background-color: var(--scondaryColor) !important;
 }

@@ -32,11 +32,56 @@
       <div class="row">
 
         <!-- First Name -->
-         
        <div> 
         <label for="first-name">First Name</label>
         <input type="text" id="first-name" name="firstName" />
        </div>
+
+       <!-- Last Name -->
+       <div> 
+       <label for="last-name">Last Name</label>
+       <input type="text" id="last-name" name="lastName" />
+       </div>
+
+       <!-- Age - number -->
+        <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="120" />
+        </div>
+
+        <!-- Email -->
+         <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+         </div>
+         
+         <!-- phone -->
+          <div>
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" placeholder="(###) ###-####" />
+        </div>
+
+        <!-- Start Date - date-->
+         <div>
+          <label for="Start-date">Start Date</label>
+          <input type="date" name="startDate" required />
+         </div>
+
+         <!-- Tshirt - Select field -->
+          <div> 
+            <label for="t-shirt">T-Shirt Size</label>
+            <select id="t-shirt" required>
+              <option value="">Select T-shirt Size</option>
+              <option value="XXS">XXS</option>
+              <option value="XS">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXl</option>
+            </select>
+            <input type="text" name="custom" placeholder="Please input custom size" disabled />
+          </div>
 
        <!-- submit button -->
         <div>
@@ -62,8 +107,11 @@
       <!-- Local Js file with Footer -->
       <script src="components/Js/footer.js"></script>
 
-      <!--Local Javascript-->
+      <!-- Local Javascript-->
       <script src="Js/scripts.js"></script>
+
+      <!-- Local js file for form -->
+       <script scr="/Js/form.js"></script>
     </section>
   </body>
 </html>
